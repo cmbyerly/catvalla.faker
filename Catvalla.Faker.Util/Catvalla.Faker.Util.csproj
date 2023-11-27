@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Catvalla Faker Library</Title>
+    <Description>This is library to generate a fake object type and/or instance with string values.
+</Description>
+    <Copyright>2023 Christopher Byerly</Copyright>
+    <PackageProjectUrl>https://github.com/cmbyerly/catvalla.faker</PackageProjectUrl>
+    <PackageIcon>catvalla_128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/cmbyerly/catvalla.faker.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>catvalla, fake, object, type, utlity</PackageTags>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Catvalla.String.Utils" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="catvalla_128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
